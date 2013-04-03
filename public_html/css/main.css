@@ -58,3 +58,10 @@ body {
     margin: 3% auto 5% auto;
     background-color: #ffffff;
 }
+.shadow{
+    background-image: url("../assets/header-shadow.png");
+    min-height: 10px;
+}
+p{
+    margin-top:1.2em;
+}
