@@ -1,3 +1,65 @@
-*{
-    font-family: 'Cuprum';
+* {
+    font-family : 'Cuprum';
+}
+
+.main-info {
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.main-info .left img {
+    margin : 15% auto 15%;
+}
+
+.main-info .left p.name {
+    margin-top : 7%;
+    font-size: 250%;
+    font-weight: 700;
+    text-align: center;
+}
+
+.main-info .left p.description {
+    font-size : 85%;
+    border: 1px solid;
+    padding: 1%;
+    display: block;
+    text-align: justify;
+}
+
+a.orange-link{
+    color: #df8505;
+    text-decoration: #df8505;
+}
+
+.main-info .right .call-us{
+    margin-top : 7%;
+    font-size: 200%;
+    font-weight: 700;
+    font-style: italic;
+}
+.main-info .right .number{
+    font-size: 150%;
+    font-weight: 700;
+    font-style: italic;
+}
+.main-info .right .info{
+    font-size: 75%;
+}
+.main-info .right .email{
+    font-size: 120%;
+}
+.main-info .right .email a{
+    color: #006dcc;
+    text-decoration: none;
+}
+
+.footer {
+    margin-bottom: 2%;
+    margin-top: 2%;
+    font-size: 90%;
+}
+
+.footer .copyright{
+    font-size: 110%;
+    text-align: center;
 }
