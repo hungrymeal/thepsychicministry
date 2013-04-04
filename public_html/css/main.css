@@ -64,6 +64,11 @@ body {
     margin           : 3% auto 5% auto;
     background-color : #ffffff;
 }
+.conteiner-shadow{
+   width: 70%;
+   margin: -7% auto 5% auto;
+    
+}
 
 * {
     font-family : 'Cuprum';
@@ -173,7 +178,7 @@ p {
     margin-top : 2%;
 }
 
-.about_img {
+#about_img {
     margin-top  : 1.5em;
     margin-left : 5.982905982905983%;
 }
@@ -188,4 +193,8 @@ p {
 
 #p_hight {
     margin-top : 0px;
+}
+#p_hidden{
+    font-weight: bold;
+    color:#000;
 }
