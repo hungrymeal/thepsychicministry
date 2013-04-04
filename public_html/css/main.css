@@ -77,6 +77,10 @@ body {
 .imgborder {
     border  : solid rgba(119, 119, 119, 0.26) 1px;
     padding : 5%;
+    box-sizing: border-box;
+    margin-bottom: 2%;
+    /*margin: 5% 0 5% 0;*/
+
 }
 
 .main-info {
@@ -154,6 +158,14 @@ a.orange-link {
     position   : relative;
 }
 
+.indent {
+    margin-top: 2%;
+}
+
+.indent-all {
+    margin: 2%;
+}
+
 .social-links {
     position : absolute;
     top      : 50%;
@@ -168,6 +180,11 @@ a.orange-link {
     text-align : center;
 }
 
+.text-bold {
+    font-size: 110%;
+    font-weight: bold;
+}
+
 .shadow {
     background-image  : url("../assets/header-shadow.png");
     min-height        : 10px;
@@ -175,12 +192,7 @@ a.orange-link {
 }
 
 p {
-    margin-top : 2%;
-}
-
-#about_img {
-    margin-top  : 1.5em;
-    margin-left : 5.982905982905983%;
+    margin-bottom : 2%;
 }
 
 #p_head {
@@ -197,4 +209,10 @@ p {
 #p_hidden{
     font-weight: bold;
     color:#000;
+}
+
+ol {
+    padding: 0;
+    margin: 0;
+    list-style-position:inside
 }
