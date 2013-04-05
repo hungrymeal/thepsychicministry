@@ -216,3 +216,44 @@ ol {
     margin: 0;
     list-style-position:inside
 }
+
+@media (max-width : 1300px) {
+    html {
+        font-size: 90%;
+    }
+}
+
+@media (max-width : 1200px) {
+    html {
+        font-size: 80%;
+    }
+    .navbar.navbar-inner {
+        width: 100%;
+    }
+}
+
+@media (max-width : 900px) {
+    .container-fluid {
+        width            : 98%;
+        margin           : auto;
+    }
+    .main-info .left p.name {
+        font-size   : 150%;
+        font-weight : 700;
+        text-align  : center;
+        margin: 10% auto;
+    }
+    .main-info .left p.description {
+        display: none;
+        visibility: hidden;
+    }
+    .main-info .right .info {
+        display: none;
+    }
+}
+
+@media (max-width : 800px) {
+    .imgborder {
+        padding: 1%;
+    }
+}
