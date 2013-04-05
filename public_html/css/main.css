@@ -234,8 +234,9 @@ ol {
 
 @media (max-width : 900px) {
     .container-fluid {
-        width            : 98%;
-        margin           : auto;
+        width            : 100%;
+        margin           : 0;
+        padding: 0;
     }
     .main-info .left p.name {
         font-size   : 150%;
@@ -255,5 +256,10 @@ ol {
 @media (max-width : 800px) {
     .imgborder {
         padding: 1%;
+    }
+}
+@media (max-width : 650px) {
+    .wide{
+        display : none;
     }
 }
