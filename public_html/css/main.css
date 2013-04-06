@@ -291,4 +291,8 @@ ol {
     .indent-all{
         text-align: center;
     }
+    .footer .copyright {
+        font-size  : 90%;
+        margin: 0;
+    }
 }
