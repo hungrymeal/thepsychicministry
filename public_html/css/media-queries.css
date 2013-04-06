@@ -1,0 +1,89 @@
+
+@media screen and (max-width : 1300px) {
+    html {
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width : 1200px) {
+    html {
+        font-size: 80%;
+    }
+    .navbar.navbar-inner {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 900px) {
+    .container-fluid {
+        width            : 98%;
+        margin           : 0;
+        padding          : 0 1% 0 1%;
+    }
+    .main-quote {
+        font-size   : 150%;
+        font-weight : 700;
+        text-align  : center;
+        /*margin: 10% auto;*/
+    }
+    .main-info .main-quote{
+        margin: 10% auto;
+    }
+    .main-info .left p.description {
+        display: none;
+        visibility: hidden;
+    }
+    .main-info .right .info {
+        display: none;
+    }
+    .imgborder {
+        padding: 1%;
+    }
+}
+
+@media screen and (max-width : 650px) {
+    .wide, .right.wide{
+        display : none;
+    }
+    .narrow, .right.narrow{
+        display: inline-block;
+    }
+    .right .call-us, .right .email{
+        display: block;
+    }
+    .right img{
+        margin: 12% 5% 0 5%;
+    }
+
+}
+
+@media screen and (max-width : 450px) {
+    ul.nav .narrow{
+        width: 20px;
+    }
+
+    .navbar .nav li a{
+        padding: 8px 8px 6px 8px;
+    }
+    .main-quote {
+        font-size   : 110%;
+    }
+    .social-links {
+        position : static;
+    }
+    .row-fluid.columns .narrow-single-column{
+        width: 95%;
+        margin: 0 2.5% 0 2.5%;
+    }
+    .narrow-single-column img{
+        margin: 2% 5% 2% 5%;
+        width: 90%;
+    }
+    .indent-all{
+        text-align: center;
+    }
+    .footer .copyright {
+        font-size  : 90%;
+        margin: 0;
+    }
+}
